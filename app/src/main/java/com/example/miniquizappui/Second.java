@@ -24,7 +24,7 @@ public class Second extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MainActivity.score = 0;
-                if(r1.isChecked()){
+                if(r3.isChecked()){
                     ++MainActivity.score;
                 }
                 else {
