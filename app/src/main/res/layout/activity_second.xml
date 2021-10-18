@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="375dp"
-        android:layout_height="82dp"
+        android:layout_height="80dp"
         android:text="Question 2 : What is class in Java?"
         android:textSize="25dp"
         android:textStyle="bold"
@@ -18,7 +18,7 @@
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141"/>
+        app:layout_constraintVertical_bias="0.097"/>
 
     <Button
         android:id="@+id/button2"
@@ -51,25 +51,29 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="20dp"/>
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="20dp"/>
 
         <RadioButton
             android:id="@+id/radioButton7"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="20dp"/>
 
         <RadioButton
             android:id="@+id/radioButton8"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textSize="20dp"/>
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

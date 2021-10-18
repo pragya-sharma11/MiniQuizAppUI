@@ -6,4 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".Third">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="377dp"
+        android:layout_height="80dp"
+        android:text="Question 3 : Which keyword is used to inherit a class?"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="256dp"
+        android:layout_height="83dp"
+        android:background="#E91E63"
+        android:text="Save and Next"
+        android:textAlignment="center"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="23dp"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <RadioGroup
+        android:layout_width="328dp"
+        android:layout_height="264dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="All of the above"
+            android:textSize="20sp"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="All of the above"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="All of the above"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="All of the above"
+            android:textSize="20sp"/>
+    </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
