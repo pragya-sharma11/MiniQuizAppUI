@@ -22,15 +22,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         b1 = findViewById(R.id.button);
-        r1 = findViewById(R.id.radioButton);
-        r2 = findViewById(R.id.radioButton1);
-        r3 = findViewById(R.id.radioButton2);
-        r4 = findViewById(R.id.radioButton3);
+        r1 = findViewById(R.id.radioButton1);
+        r2 = findViewById(R.id.radioButton2);
+        r3 = findViewById(R.id.radioButton3);
+        r4 = findViewById(R.id.radioButton4);
         t = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
                 t.setLanguage(Locale.ENGLISH);
-                t.setSpeechRate(1.0f);
+                t.setSpeechRate(0.9f);
             }
         });
         b1.setOnClickListener(new View.OnClickListener() {

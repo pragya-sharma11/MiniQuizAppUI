@@ -22,7 +22,7 @@ public class Third extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
         b1 = findViewById(R.id.button3);
-        r1 = findViewById(R.id.radioButton8);
+        r1 = findViewById(R.id.radioButton12);
         r2 = findViewById(R.id.radioButton9);
         r3 = findViewById(R.id.radioButton10);
         r4 = findViewById(R.id.radioButton11);
@@ -36,13 +36,13 @@ public class Third extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.score = 0;
+
                 if(r3.isChecked()){
                     ++MainActivity.score;
                     r = "r3";
                 }
                 else {
-                    MainActivity.score--;
+                    ++MainActivity.score;
                     if(r1.isChecked())
                         r = "r1";
                     else if(r2.isChecked())

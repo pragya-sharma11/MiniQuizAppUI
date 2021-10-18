@@ -21,10 +21,10 @@ public class Second extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         b1 = findViewById(R.id.button2);
-        r1 = findViewById(R.id.radioButton4);
-        r2 = findViewById(R.id.radioButton5);
-        r3 = findViewById(R.id.radioButton6);
-        r4 = findViewById(R.id.radioButton7);
+        r1 = findViewById(R.id.radioButton5);
+        r2 = findViewById(R.id.radioButton6);
+        r3 = findViewById(R.id.radioButton7);
+        r4 = findViewById(R.id.radioButton8);
         t = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int status) {
@@ -35,7 +35,6 @@ public class Second extends AppCompatActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity.score = 0;
                 if(r4.isChecked()){
                     ++MainActivity.score;
                     r = "r4";

@@ -29,6 +29,7 @@ public class ScorePage extends AppCompatActivity {
                 t.setSpeechRate(1.0f);
             }
         });
+        t.speak("Your Score is " + MainActivity.score, TextToSpeech.QUEUE_FLUSH,null);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
