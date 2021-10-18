@@ -51,29 +51,29 @@
             android:id="@+id/radioButton5"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton"
-            android:textSize="20dp"/>
+            android:text="Instance of object"
+            android:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/radioButton6"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton"
-            android:textSize="20dp"/>
+            android:text="Model for object"
+            android:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/radioButton7"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton"
-            android:textSize="20dp"/>
+            android:text="Container of object"
+            android:textSize="20dp" />
 
         <RadioButton
             android:id="@+id/radioButton8"
             android:layout_width="match_parent"
             android:layout_height="59dp"
-            android:text="RadioButton"
-            android:textSize="20dp"/>
+            android:text="Blueprint of object"
+            android:textSize="20dp" />
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
