@@ -57,21 +57,21 @@
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
-            android:layout_height="62dp"
+            android:layout_height="59dp"
             android:text="For sending data"
             android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="59dp"
             android:text="For removing previous data"
             android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="59dp"
             android:text="All of the above"
             android:textSize="20sp" />
     </RadioGroup>
