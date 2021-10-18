@@ -51,7 +51,7 @@ public class Third extends AppCompatActivity {
                         r = "r4";
 
                 }
-                t.speak("You have selected " + r + " and now we are moving to next question", TextToSpeech.QUEUE_FLUSH,null);
+                t.speak("You have selected " + r + " and now we are moving to score", TextToSpeech.QUEUE_FLUSH,null);
                 Intent i = new Intent(Third.this, ScorePage.class);
                 startActivity(i);
                 finish();
