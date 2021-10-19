@@ -37,16 +37,16 @@ public class Second extends AppCompatActivity {
             public void onClick(View v) {
                 if(r4.isChecked()){
                     ++MainActivity.score;
-                    r = "r4";
+                    r = "option 4";
                 }
                 else {
                     MainActivity.score--;
                     if(r1.isChecked())
-                        r = "r1";
+                        r = "option 1";
                     else if(r2.isChecked())
-                        r = "r2";
+                        r = "option 2";
                     else if(r3.isChecked())
-                        r = "r3";
+                        r = "option 3";
                 }
                 t.speak("You have selected " + r + " and now we are moving to next question", TextToSpeech.QUEUE_FLUSH,null);
                 Intent i = new Intent(Second.this, Third.class);

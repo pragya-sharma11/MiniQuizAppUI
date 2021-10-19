@@ -39,16 +39,16 @@ public class Third extends AppCompatActivity {
 
                 if(r3.isChecked()){
                     ++MainActivity.score;
-                    r = "r3";
+                    r = "option 3";
                 }
                 else {
                     ++MainActivity.score;
                     if(r1.isChecked())
-                        r = "r1";
+                        r = "option 1";
                     else if(r2.isChecked())
-                        r = "r2";
+                        r = "option 2";
                     else if(r4.isChecked())
-                        r = "r4";
+                        r = "option 4";
 
                 }
                 t.speak("You have selected " + r + " and now we are moving to score", TextToSpeech.QUEUE_FLUSH,null);
